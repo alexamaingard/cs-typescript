@@ -1,6 +1,5 @@
 import { Todo, TodoType } from './Todo'
 
-// Define this
 interface StateProps {
     completedTodos: TodoType[],
     toggleTodoCompletion: (target: TodoType) => void,

@@ -1,10 +1,8 @@
-// Define this
 export interface TodoType {
     completed: boolean,
     text: string
 }
 
-// Define this
 interface StateProps {
     todo: TodoType,
     toggleTodoCompletion: (target: TodoType) => void,
